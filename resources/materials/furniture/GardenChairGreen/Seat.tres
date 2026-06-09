@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dn76nyhhr0uro"]
+
+[resource]
+resource_name = "Seat"
+albedo_color = Color(0.27874735, 0.9077511, 0.178014, 1)
+roughness = 0.8

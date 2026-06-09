@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://d0lw7lb6tsxwk"]
+
+[ext_resource type="Texture2D" uid="uid://ue5rxbhbjvj7" path="res://assets/textures/furniture/Swing/WoodenSeatBaseColor.png" id="1_tvyt6"]
+
+[resource]
+resource_name = "WoodenSeat"
+albedo_texture = ExtResource("1_tvyt6")
+roughness = 0.8

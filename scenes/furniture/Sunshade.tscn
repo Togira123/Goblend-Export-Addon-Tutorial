@@ -1,0 +1,168 @@
+[gd_scene format=4 uid="uid://btw57ptampdco"]
+
+[ext_resource type="Shape3D" uid="uid://ci1lyh2qe4wje" path="res://resources/collision_shapes/cylshapes/1.9000000_0.0500000.tres" id="1_ov60y"]
+[ext_resource type="Shape3D" uid="uid://cbowy33qbs6q" path="res://resources/collision_shapes/cylshapes/0.1000000_0.4000000.tres" id="2_scg8j"]
+[ext_resource type="Shape3D" uid="uid://dbveqdq67vdo6" path="res://resources/collision_shapes/cylshapes/0.1250000_1.1700000.tres" id="3_xi5c5"]
+[ext_resource type="Material" uid="uid://bpts5qep8dmtd" path="res://resources/materials/furniture/Sunshade/Sunshade.tres" id="4_jdi5s"]
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_y4hxb"]
+resource_name = "Sunshade_Cylinder_005"
+_surfaces = [{
+"aabb": AABB(-0.04330127, -1, -0.05, 0.08660254, 2, 0.1),
+"attribute_data": PackedByteArray("mu/zCTwB8wmj6WQQmu/uDDwB7gyj6cL+nuxkEJ7swv6T8mQQk/LC/prvAwGO9WQQPAEDAY71wv6a7/4DPAH+Aw=="),
+"format": 34896613399,
+"index_count": 36,
+"index_data": PackedByteArray("AAAEAAEAAAADAAQAAgAHAAUAAgAGAAcABgAJAAcABgAIAAkACAANAAkACAALAA0ACgAPAAwACgAOAA8ADgABAA8ADgAAAAEA"),
+"material": ExtResource("4_jdi5s"),
+"name": "Sunshade",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 16,
+"vertex_data": PackedByteArray("/38AAAAA////f///AAD/////AAD/P/////8AAP8/jOL//////z+M4v//////P/////8AAP+//////////7////9/AAD//////3////////8AAAAA/79KygAAAAD/v///AAD///+/SsoAAP///7///wAAAAD/P4ziAAD///8/jOL/P/+//z//vyXR/3+psVVOqbFVTiXR/3/Zrv9/2a7/f/9//3//f/9/s11LoiVR/3+zXUuiJVH/f1VOqbFVTqmx")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_51ydn"]
+resource_name = "Sunshade_Sphere_001"
+_surfaces = [{
+"aabb": AABB(-1.1705409, 4.865676, -1.1705407, 2.3410826, 0.13432407, 2.341082),
+"attribute_data": PackedByteArray("XGBbwjtNAvglWzLA2UK18ypWiL3wOGnumC8q6OgmCeEdSdKy9h4X2dUXZ9CXEQ/HSgwmvZM9kZ/+B8SyuwQDqIkC/pxvAc+RSDpdiW8BkoaJAmN77zs1frsEXXD+B5xlvD+Wc0oMO1uXEVFR1Rf5R/YeSj8bTY5h6CZXN3lR+V2YLzYwKlbWWvA4+CnZQqwkO01fIPxXHB1Na0ZTAWPrGjBu0RltedEZnITrGrmBYFShjxwdYppfIFeMLVjEpKwkra74KQW4NjBhmo5htcBXN6fISj/Iz/lHF6WbbgbWUVFS2ztbn9+cZeLiXXCnrL6DE+VjezStXYkt5pKGNK0Cjy3mz5G4cy+ME+X+nOLiA6jpqZGfn9/EslLbJr0G1g/H9KF1rsjPZ9CnyBfZYZrQtrXACeEElmW6Bbgq6K2uae7EpLXzIIdbwmKaAvihj0X7nIR2/W15kP7rcKbFMG6Q/gFjdv38V0X7"),
+"format": 34896613399,
+"index_count": 342,
+"index_data": PackedByteArray("UgBWAFEAVgBVAFcAVQBTAFQAUwBWAFIAVgBTAFUANgAuADIALgA9AEEAPQA2ADsALgA2AD0AHQAVABgAFQAfAEEAFQAdAB8ALAAuACsALgAtAC8ALgAsAC0AVgBNAFEATQBBAEsAQQAAAAIAAABNAFYATQAAAEEAJwArACYAKwAqACwAKgAoACkAKAArACcAKwAoACoAAgAFAAQABQABAAMAAQACAAAAAgABAAUACQANAAgADQAMAA4ADAAKAAsACgANAAkADQAKAAwARQBIAEQASABHAEkARwBFAEYASABFAEcAGQAdABgAHQAcAB4AHAAaABsAGgAdABkAHQAaABwAEgAIAA0ACAACAAQAAgAVAEEAFQAIABIACAAVAAIATgBRAE0AUQBQAFIAUABOAE8AUQBOAFAASwBOAE0ATgBKAEwASgBIAEkASABOAEsATgBIAEoARAA9AD8APQBLAEEASwBEAEgAPQBEAEsANwA7ADYAOwA6ADwAOgA4ADkAOAA7ADcAOwA4ADoAKwAhACYAIQBBAB8AQQArAC4AIQArAEEAHwAiACEAIgAeACAAHgAfAB0AHwAeACIAMwA2ADIANgA1ADcANQAzADQANgAzADUADgASAA0AEgARABMAEQAPABAADwASAA4AEgAPABEAQABEAD8ARABDAEUAQwBAAEIARABAAEMAPQBAAD8AQAA8AD4APAA9ADsAPQA8AEAAVwAAAFYAAABZAAEAWQBXAFgAAABXAFkABQAIAAQACAAHAAkABwAFAAYACAAFAAcAFQAZABgAGQAWABcAFgATABQAEwAVABIAFQAWABkAFQATABYAIgAmACEAJgAlACcAJQAjACQAIwAmACIAJgAjACUALwAyAC4AMgAxADMAMQAvADAAMgAvADEA"),
+"material": ExtResource("4_jdi5s"),
+"name": "Sunshade",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 90,
+"vertex_data": PackedByteArray("TYYQt/8/JPmLjAAAnQC9+YuMELfsQNz5+JgAAHUCkvqqkhC3dUKv+ielAACCBdD6+7AAAL4JovtVvAAAHQ9J+7mjELeGSkn7HMcAAJIV4Psy0QAADR2A/IHaAAB9Jcj88eIAAMsudvx4tRC3RVzb+2zqAADiOOz84fAAAKhDZf1A9gAAA09//Xz6AADXWmT9Er8Qt3NzHfyJ/QIABmeL/WH/AgBzc4P9TsAQt/9/GPz//wAA/3+w/WH/AACLjIP9Er8Qt4uMH/yJ/QAA+Jhz/Xz6AAAnpTP9QPYAAPuw0vzh8AAAVbwr/Xi1ELe5o777bOoAABzHx/y1sRC3y6gx+/HiAAAy0QP8eK0Qt3itpfqB2gAAgdrS+zLRAADx4jr7HMcAAGzq7PpVvAAA4fAg+5uYELdpu9P5+7AAAED2OPonpQAAfPpZ+fiYAACJ/VL5i4wAAGH/Ofn/fxC3TsDm+P9/AAD//334c3MAAGH/y/dzcxC3Er/H9wZnAACJ/Tj311oAAHz6CPcDTwAAQPam9q5hELe2uM/2qEMAAOHwEvbiOAAAbOrp9cwuAADx4oT1hlIQt3itOPZ9JQAAgdoU9Q0dAAAy0az0khUAABzH5/QdDwAAVbyn9JVEELebmOf1vgkAAPuwdfR1QhC3qpLQ9YIFAAAnpU/07EAQt4uMpPV1AgAA+JhM9P9/////f+/4nQAAAIuMMfQAAAAA/39U9P8/ELexebD1nQAAAHNzhvR1AgAABmdp9IIFAADXWrX0lUQQt2Nn+vW+CQAAA08T9R0PAACoQ2r1hkoQt0VcoPaSFQAA4jgO9UlOELczVxz3DR0AAMwu5vV9JQAAfSUa9swuAAANHWH2RVwQt4ZKrffiOAAAkhUW96lDAAAdD9D3A08AAL4JqffXWgAAggW293NzELfsQHf4BmcAAHUCd/hzcwAAnQBe+f9/AAAAADn5vYeJv3yIicB+iMm+uohOwDGJLb6KiZe/rolDvxGKCr/MiXq9m4owvhqLXb3Oioq9JYtXvVOKcbx4i1m8x4tdu66LbLvIi1y7gopiu8qLcbr4i2u5aoqFus2LhLn3i2y5bIqTuXqLzbgoixW4fovlty+LEbgOiv+4z4qst22J1ri/ihu37YiMuN6JJ7dUiQW3lYnjtmqJ+rZDiHW4l4gat7uHPrfBhzu31ocxt3qHv7gxh4S3g4bbt3KGiLn/hVC4IoXsuHmFxrhfhYO66YR3ufODU7pShCy6x4Rnu86DH7tCgxa8CIMuvEeDFLxphFa8+ILuvEeEO72cgs29C4QZvpaCcr5vh0e8roIKv4eCGr8OhM6+pILHvxmDTcDDgnPAVoRlvxOD8sBrg2zB4oS1v9iDOsFnhRTA+oOkwd2Es8GIhNvBFYY7wFCFzMEQhr/BPoaowS+GsMH6hgLACYdUwbKHEMHeh/nA")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_7ihcs"]
+resource_name = "Sunshade_Cube_001"
+_surfaces = [{
+"aabb": AABB(-0.07662319, -0.040430717, -0.02, 0.15324637, 0.080861434, 0.04),
+"attribute_data": PackedByteArray("MwHsyTMBqv5iDuzJYg6q/jMBe/FiDnvxMwEc12IOHNczAUvkYg5L5A=="),
+"format": 34896613399,
+"index_count": 24,
+"index_data": PackedByteArray("AQAFAAMAAQAEAAUABAAJAAUABAAIAAkACAAHAAkACAAGAAcABgACAAcABgAAAAIA"),
+"material": ExtResource("4_jdi5s"),
+"name": "Sunshade",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 10,
+"vertex_data": PackedByteArray("Lb0AAP//vOctvQAA//+85wAA/////zfrAAD/////N+stvQAAAAAm+QAA//8AAPHx//8AAP//N+vRQv////+85///AAAAAPHx0UL//wAAJvls5Xv3bOV79x/STPEf0kzxULB35gTAgOvfLbIOkhqDCPo/fhSuT4cZ")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_mqlyq"]
+resource_name = "Sunshade_Cube_002"
+_surfaces = [{
+"aabb": AABB(-0.07662319, -0.040430717, -0.02, 0.15324637, 0.080861434, 0.04),
+"attribute_data": PackedByteArray("MwHsyTMBqv5iDuzJYg6q/jMBe/FiDnvxMwEc12IOHNczAUvkYg5L5A=="),
+"format": 34896613399,
+"index_count": 24,
+"index_data": PackedByteArray("AQAFAAMAAQAEAAUABAAJAAUABAAIAAkACAAHAAkACAAGAAcABgACAAcABgAAAAIA"),
+"material": ExtResource("4_jdi5s"),
+"name": "Sunshade",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 10,
+"vertex_data": PackedByteArray("Lb0AAP//vOctvQAA//+85wAA/////zfrAAD/////N+stvQAAAAAm+QAA//8AAPHx//8AAP//N+vRQv////+85///AAAAAPHx0UL//wAAJvls5Xv3bOV79x/STPEf0kzxULB35gTAgOvfLbIOkhqDCPo/fhSuT4cZ")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_snhh3"]
+resource_name = "Sunshade_Cube_003"
+_surfaces = [{
+"aabb": AABB(-0.07662319, -0.040430717, -0.02, 0.15324637, 0.080861434, 0.04),
+"attribute_data": PackedByteArray("MwHsyTMBqv5iDuzJYg6q/jMBe/FiDnvxMwEc12IOHNczAUvkYg5L5A=="),
+"format": 34896613399,
+"index_count": 24,
+"index_data": PackedByteArray("AQAFAAMAAQAEAAUABAAJAAUABAAIAAkACAAHAAkACAAGAAcABgACAAcABgAAAAIA"),
+"material": ExtResource("4_jdi5s"),
+"name": "Sunshade",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 10,
+"vertex_data": PackedByteArray("Lb0AAP//vOctvQAA//+85wAA/////zfrAAD/////N+stvQAAAAAm+QAA//8AAPHx//8AAP//N+vRQv////+85///AAAAAPHx0UL//wAAJvls5Xv3bOV79x/STPEf0kzxULB35gTAgOvfLbIOkhqDCPo/fhSuT4cZ")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_ppv63"]
+resource_name = "Sunshade_Cube_004"
+_surfaces = [{
+"aabb": AABB(-0.07662319, -0.040430717, -0.02, 0.15324637, 0.080861434, 0.04),
+"attribute_data": PackedByteArray("MwHsyTMBqv5iDuzJYg6q/jMBe/FiDnvxMwEc12IOHNczAUvkYg5L5A=="),
+"format": 34896613399,
+"index_count": 24,
+"index_data": PackedByteArray("AQAFAAMAAQAEAAUABAAJAAUABAAIAAkACAAHAAkACAAGAAcABgACAAcABgAAAAIA"),
+"material": ExtResource("4_jdi5s"),
+"name": "Sunshade",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 10,
+"vertex_data": PackedByteArray("Lb0AAP//vOctvQAA//+85wAA/////zfrAAD/////N+stvQAAAAAm+QAA//8AAPHx//8AAP//N+vRQv////+85///AAAAAPHx0UL//wAAJvls5Xv3bOV79x/STPEf0kzxULB35gTAgOvfLbIOkhqDCPo/fhSuT4cZ")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_2rvvb"]
+resource_name = "Sunshade_Cylinder_006"
+_surfaces = [{
+"aabb": AABB(-0.4, -0.05, -0.4, 0.8, 0.1, 0.8),
+"attribute_data": PackedByteArray("zRil6z4b2RVfEaXrNN0FFpIU2RXNGFz2XxFc9gfj2BtoDmYYzRiP/qiiEfdfEY/+qKJ//i3mcyOwCR4dX60R91+tf/4t5q8rIwdII/i4Eff4uH/+B+NLMyMH9CmvwxH3r8N//jTdHTmwCR4wdUR//uPLEfd1RBH348t//pnVRDxoDtY0Qjx//kI8EfddzUQ8khRjN4sxf/6LMRH3wcUdOT4bYzfyJX/+8iUR9++/SzPtCJo0Oxt//mgh1jR/AZo0OxsR98i8ryvtCM48ICYeMH8BzjzIvHMj7QiFR60o9Cl/AYVH77/YG+0IHlOtKEgjfwEeU8HFBRbtCNVdzRhV1SAmHh1/AdVdXxFV1V3N3xLNGAzgaCFmGF8RDOCZ1d8S"),
+"format": 34896613399,
+"index_count": 180,
+"index_data": PackedByteArray("AAAGAAIAAAAFAAYABQALAAYABQAJAAsACgAQAAwACgAPABAADwAUABAADwATABQAEwAYABQAEwAXABgAFwAeABgAFwAcAB4AGwAiAB0AGwAhACIAIQAmACIAIQAlACYAJQAqACYAJQApACoAKQAwACoAKQAtADAALAA0AC8ALAAyADQAMgA4ADQAMgA2ADgANgA8ADgANgA6ADwAOgBBADwAOgA+AEEADQADAAcAAwBDAEcAQwA5AD0AOQAxADUAMQAnACsAJwAfACMAHwAVABkAFQANABEADQBDAAMAQwAxADkAMQAfACcAHwANABUADQAxAEMAMQANAB8APwBGAEIAPwBEAEYARAACAEYARAAAAAIARQAEAAEABAAOAAgADgAWABIAFgAgABoAIAAoACQAKAAzAC4AMwA7ADcAOwBFAEAARQAOAAQADgAgABYAIAAzACgAMwBFADsARQAgAA4AIABFADMA"),
+"material": ExtResource("4_jdi5s"),
+"name": "Sunshade",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 72,
+"vertex_data": PackedByteArray("/38AAAAAP+v/fwAAAAAW/v9///8AAD/r/3///wAA/uL7sAAAvgn98vuwAAC+CVn2+7D//74JluD7sP//vgkg34HaAAB9JcDogdoAAH0lW/6B2gAAfSW/5oHa//99Ja7Wgdr//30lv+aB2v//fSVt10D2AAADT2bhQPYAAANPfudA9v//A09+50D2//8DTz/M//8AAP9/SeD//wAA/38/6///////fz/r//////9/B8BA9gAA+7C15kD2AAD7sMPvQPb///uww+9A9v//+7BItIHaAACB2knvgdoAAIHa86mB2gAAgdov8IHa//+B2vOpgdr//4HaL/CB2v//gdrzqfuwAABA9v71+7AAAED2i6H7sP//QPaLofuw//9A9tui/38AAP///Pr/fwAA//+tnf9//////62d/3//////CaIDTwAAQPZC/wNPAABA9ouhA0///0D2i6EDT///QPZsqX0lAACB2gfAfSUAAIHa86l9JQAAgdo//H0l//+B2gHUfSX//4Ha86l9Jf//gdrnt74JAAD7sAXCvgkAAPuwtfa+Cf//+7Cf3b4J///7sDTJAAAAAP9/1sYAAAAA/38x8AAA////fxnoAAD///9/uta+CQAAA0/tzb4JAAADT0zsvgn//wNPGfO+Cf//A0+u3n0lAAB9Ja7WfSUAAH0lrtZ9JQAAfSUw730l//99JVv+fSX//30lW/59Jf//fSWw4gNPAAC+CZbgA08AAL4JXPcDT///vglZ9gNP//++CQTkwDU+yip6jCc+ysA1+ur3Yhl/tyReNSbSyskZP53dYGF5hAsrjqb6SlURW7PnyPpKosxVkfbNDFeNilk29BBuvZDC9JBrwilKx5C/RH4UPsrAtX2U7bxgPwyUIlLPF0PWuqnOl8q+FjqHkUZaN0UESGkZdOAEyMg6ip9omQTIyDqxiTJdnDUuWS3ZY0rr2DNAtX1NXQAA/3////9/ovBWSNtx6V/RJpu1YsrQprL5kLkMQ4aC+jc2xUjfw+jffUGzx7r6tyb0PsF4P6SR/No949Jx1rMP+CG/fDw9nuPRreKTaEm0/P0Ut8U5tql7xHrntmCqtMb8I1AXNwS1FzcEtTG3je5wWQS1cFkEtRn4tlY0NuXAeq3o9KDK2C2p8pdd")
+}]
+blend_shape_mode = 0
+
+[node name="Sunshade" type="StaticBody3D" unique_id=1605891481]
+collision_layer = 5
+
+[node name="Cylshape_001" type="CollisionShape3D" parent="." unique_id=2002685902]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.1, 0)
+shape = ExtResource("1_ov60y")
+
+[node name="Cylshape_002" type="CollisionShape3D" parent="." unique_id=2081695061]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.05, 0)
+shape = ExtResource("2_scg8j")
+
+[node name="Cylshape" type="CollisionShape3D" parent="." unique_id=501663953]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.05, 0)
+shape = ExtResource("3_xi5c5")
+
+[node name="Pole" type="MeshInstance3D" parent="." unique_id=1361724753]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.1, 0)
+mesh = SubResource("ArrayMesh_y4hxb")
+
+[node name="Shade" type="MeshInstance3D" parent="." unique_id=874938404]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2.8933601, 0)
+mesh = SubResource("ArrayMesh_51ydn")
+
+[node name="PoleSupport1" type="MeshInstance3D" parent="." unique_id=822407448]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.08, 2.055, 0)
+mesh = SubResource("ArrayMesh_7ihcs")
+
+[node name="PoleSupport2" type="MeshInstance3D" parent="." unique_id=64673809]
+transform = Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, 0, 2.055, 0.08)
+mesh = SubResource("ArrayMesh_mqlyq")
+
+[node name="PoleSupport3" type="MeshInstance3D" parent="." unique_id=954609284]
+transform = Transform3D(-1, 0, -3.2584137e-07, 0, 1, 0, 3.2584137e-07, 0, -1, 0.08, 2.055, 0)
+mesh = SubResource("ArrayMesh_snhh3")
+
+[node name="PoleSupport4" type="MeshInstance3D" parent="." unique_id=1305733166]
+transform = Transform3D(0, 0, -1, 0, 1, 0, 1, 0, 0, 0, 2.055, -0.08)
+mesh = SubResource("ArrayMesh_ppv63")
+
+[node name="StoneSupport" type="MeshInstance3D" parent="." unique_id=2002459113]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.05, 0)
+mesh = SubResource("ArrayMesh_2rvvb")

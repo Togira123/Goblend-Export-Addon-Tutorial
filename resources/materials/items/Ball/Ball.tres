@@ -1,0 +1,8 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://ce3mf0qqp5aqr"]
+
+[ext_resource type="Shader" uid="uid://bypfspyrnmkj7" path="res://resources/shaders/items/Ball/Ball.gdshader" id="1_4hjfe"]
+
+[resource]
+resource_name = "Ball"
+render_priority = 0
+shader = ExtResource("1_4hjfe")

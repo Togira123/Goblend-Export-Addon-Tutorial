@@ -1,0 +1,57 @@
+[gd_scene format=3 uid="uid://blh0u04r0vqii"]
+
+[ext_resource type="PackedScene" uid="uid://di6w4y7lymau3" path="res://scenes/furniture/Swing.tscn" id="1_j8yqm"]
+[ext_resource type="PackedScene" uid="uid://cxqwu0riu2vus" path="res://scenes/furniture/GardenTable.tscn" id="2_2cvsq"]
+[ext_resource type="PackedScene" uid="uid://bb8qyaqd37jy" path="res://scenes/furniture/GardenChairBlue.tscn" id="3_sx0ym"]
+[ext_resource type="PackedScene" uid="uid://cvyyxg8hj5eyu" path="res://scenes/furniture/GardenChairGreen.tscn" id="4_oai6w"]
+[ext_resource type="PackedScene" uid="uid://ovaorlihpvyn" path="res://scenes/items/Ball.tscn" id="5_xjdd4"]
+[ext_resource type="PackedScene" uid="uid://btw57ptampdco" path="res://scenes/furniture/Sunshade.tscn" id="6_wk48e"]
+[ext_resource type="Material" uid="uid://dbgtl4hnmmy1q" path="res://resources/materials/Garden/Grass.tres" id="7_p3fiq"]
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_tcjds"]
+resource_name = "Garden_Plane_001"
+_surfaces = [{
+"aabb": AABB(-3, 0, -3, 6, 1e-05, 6),
+"attribute_data": PackedByteArray(0, 0, 255, 255, 255, 255, 255, 255, 0, 0, 0, 0, 255, 255, 0, 0),
+"format": 34896613399,
+"index_count": 6,
+"index_data": PackedByteArray(0, 0, 3, 0, 1, 0, 0, 0, 2, 0, 3, 0),
+"material": ExtResource("7_p3fiq"),
+"name": "Grass",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 255, 255, 255, 191, 255, 255, 0, 0, 255, 255, 255, 191, 0, 0, 0, 0, 0, 0, 255, 191, 255, 255, 0, 0, 0, 0, 255, 191, 255, 255, 255, 127, 255, 255, 255, 127, 255, 255, 255, 127, 255, 255, 255, 127)
+}]
+blend_shape_mode = 0
+
+[node name="Garden" type="StaticBody3D" unique_id=147410026]
+collision_layer = 5
+
+[node name="Swing" parent="." unique_id=1458415630 instance=ExtResource("1_j8yqm")]
+transform = Transform3D(0.9942762, 0, 0.10683986, 0, 1, 0, -0.10683986, 0, 0.9942762, -1.4038887, 0, 0.040812135)
+
+[node name="GardenTable" parent="." unique_id=1247223356 instance=ExtResource("2_2cvsq")]
+transform = Transform3D(0.9782152, 0, 0.20759346, 0, 1, 0, -0.20759346, 0, 0.9782152, 1.2039529, 0, 0.81607723)
+
+[node name="GardenChairBlue" parent="." unique_id=2040345739 instance=ExtResource("3_sx0ym")]
+transform = Transform3D(-0.8261211, 0, -0.56349266, 0, 1, 0, 0.56349266, 0, -0.8261211, 0.45032573, 0, 0.14246008)
+
+[node name="GardenChairBlue_001" parent="." unique_id=959965344 instance=ExtResource("3_sx0ym")]
+transform = Transform3D(-0.9523885, 0, -0.3048873, 0, 1, 0, 0.3048873, 0, -0.9523885, 1.3327532, 0, -0.15635133)
+
+[node name="GardenChairGreen" parent="." unique_id=571907561 instance=ExtResource("4_oai6w")]
+transform = Transform3D(0.9998991, 0, -0.014207145, 0, 1, 0, 0.014207145, 0, 0.9998991, 1.3101006, 0, 1.5792787)
+
+[node name="Ball" parent="." unique_id=1281029221 instance=ExtResource("5_xjdd4")]
+transform = Transform3D(0.9254694, 0.37780577, -0.027734526, -0.34172904, 0.80101347, -0.49152684, -0.16348594, 0.46437073, 0.8704207, -0.45696568, 0.14999995, -2.006144)
+
+[node name="Sunshade" parent="." unique_id=1605891481 instance=ExtResource("6_wk48e")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5600462, 0, -1.7218812)
+
+[node name="Grass" type="MeshInstance3D" parent="." unique_id=1663282384]
+mesh = SubResource("ArrayMesh_tcjds")
+
+[node name="Sun" type="DirectionalLight3D" parent="." unique_id=1438695665]
+transform = Transform3D(0.9889001, 0.04520179, 0.14153911, -0.1485817, 0.3008449, 0.94202757, 0, -0.9526013, 0.3042217, 0, 5.453668, 0)
+light_energy = 1.5

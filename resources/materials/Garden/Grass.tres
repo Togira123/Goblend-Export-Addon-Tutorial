@@ -1,0 +1,7 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dbgtl4hnmmy1q"]
+
+[ext_resource type="Texture2D" uid="uid://bd5ftrq4l71ef" path="res://assets/textures/Garden/GrassBaseColor.png" id="1_4ujmw"]
+
+[resource]
+resource_name = "Grass"
+albedo_texture = ExtResource("1_4ujmw")
